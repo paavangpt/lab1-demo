@@ -2,7 +2,7 @@ const button = document.getElementById('actionButton');
 const message = document.getElementById('message');
 
 // New comment added
-let clickCount = 0;
+let clickCount = 10;
 
 button.addEventListener('click', () => {
   clickCount += 1;
