@@ -1,6 +1,7 @@
 const button = document.getElementById('actionButton');
 const message = document.getElementById('message');
 
+// New comment added
 let clickCount = 0;
 
 button.addEventListener('click', () => {
